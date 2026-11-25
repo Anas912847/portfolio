@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anas-azouaoui.vercel.app/sitemap.xml

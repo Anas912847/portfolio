@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en" data-page="home" data-theme="night">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E1C22">
+<meta name="color-scheme" content="dark light">
+<script src="/assets/js/boot.js?v=84729f7486"></script>
+<title>Anas Azouaoui, computer science portfolio, networks and security</title>
+<meta name="description" content="Portfolio of Anas Azouaoui, computer science student (DACS track) at IUT Montpellier-Sète: networks, security, projects. Internship wanted from April 2027.">
+<link rel="canonical" href="https://anas-azouaoui.vercel.app/en/">
+<link rel="alternate" hreflang="fr" href="https://anas-azouaoui.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://anas-azouaoui.vercel.app/en/">
+<link rel="alternate" hreflang="x-default" href="https://anas-azouaoui.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anas Azouaoui">
+<meta property="og:title" content="Anas Azouaoui, computer science portfolio, networks and security">
+<meta property="og:description" content="Portfolio of Anas Azouaoui, computer science student (DACS track) at IUT Montpellier-Sète: networks, security, projects. Internship wanted from April 2027.">
+<meta property="og:url" content="https://anas-azouaoui.vercel.app/en/">
+<meta property="og:image" content="https://anas-azouaoui.vercel.app/assets/img/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Anas Azouaoui, portfolio BUT Informatique parcours DACS">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/fira-sans-light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fira-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css?v=9ae2ac7a12">
+<script src="/assets/js/os.js?v=8bd7f309e5" defer></script>
+<link rel="modulepreload" href="/assets/js/vendor/three.module.min.js">
+<script type="module" src="/assets/js/pc3d.js?v=544a3c7e1b"></script>
+<script src="/_vercel/insights/script.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Anas Azouaoui","url":"https://anas-azouaoui.vercel.app/en/","sameAs":["https://www.linkedin.com/in/anas-azouaoui-0895473aa/"],"affiliation":{"@type":"CollegeOrUniversity","name":"IUT de Montpellier-Sète"},"knowsAbout":["Administration réseau","Cybersécurité","Java","SQL","Linux"]}</script>
+</head>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+<svg class="sprite" aria-hidden="true" focusable="false">
+<symbol id="i-logo" viewBox="0 0 48 48"><rect x="6" y="6" width="20" height="20" rx="4" fill="#F0641E"/><rect x="22" y="22" width="20" height="20" rx="4" fill="#3CCFD4"/></symbol>
+<symbol id="i-welcome" viewBox="0 0 48 48"><path d="M11 5h19l9 9v27a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z" fill="#F7F4EC"/><path d="M30 5v7a2 2 0 0 0 2 2h7Z" fill="#F0641E"/><rect x="14" y="21" width="18" height="3" rx="1.5" fill="#26313D"/><rect x="14" y="28" width="20" height="3" rx="1.5" fill="#9FB2B6"/><rect x="14" y="35" width="13" height="3" rx="1.5" fill="#9FB2B6"/></symbol>
+<symbol id="i-profil" viewBox="0 0 48 48"><rect x="4" y="9" width="40" height="30" rx="5" fill="#ECE1C8"/><circle cx="16" cy="21" r="5.5" fill="#2F4858"/><path d="M8 34c1.5-5 5-7.5 8-7.5s6.5 2.5 8 7.5Z" fill="#2F4858"/><rect x="27" y="17" width="12" height="3" rx="1.5" fill="#F0641E"/><rect x="27" y="24" width="12" height="3" rx="1.5" fill="#9C8F73"/><rect x="27" y="30" width="8" height="3" rx="1.5" fill="#9C8F73"/></symbol>
+<symbol id="i-projets" viewBox="0 0 48 48"><path d="M5 13a4 4 0 0 1 4-4h10l4 5h16a4 4 0 0 1 4 4v19a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4Z" fill="#2A9DA2"/><path d="M5 19a3 3 0 0 1 3-3h32a3 3 0 0 1 3 3v18a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4Z" fill="#3CCFD4"/><rect x="11" y="23" width="10" height="3" rx="1.5" fill="#0E4F54"/></symbol>
+<symbol id="i-reseau" viewBox="0 0 48 48"><path d="M24 12v9M24 21H11v9M24 21h13v9M24 21v9" stroke="#3CCFD4" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="17" y="4" width="14" height="10" rx="3" fill="#F7F4EC"/><rect x="5" y="30" width="12" height="12" rx="6" fill="#2F4858"/><rect x="18" y="30" width="12" height="12" rx="3" fill="#F0641E"/><rect x="31" y="30" width="12" height="12" rx="6" fill="#2F4858"/></symbol>
+<symbol id="i-competences" viewBox="0 0 48 48"><rect x="5" y="6" width="38" height="36" rx="5" fill="#F7F4EC"/><rect x="11" y="27" width="6" height="10" rx="2" fill="#3CCFD4"/><rect x="21" y="17" width="6" height="20" rx="2" fill="#F0641E"/><rect x="31" y="22" width="6" height="15" rx="2" fill="#2F4858"/><rect x="10" y="11" width="16" height="3" rx="1.5" fill="#9FB2B6"/></symbol>
+<symbol id="i-terminal" viewBox="0 0 48 48"><rect x="4" y="8" width="40" height="32" rx="5" fill="#1A232B"/><path d="m12 18 6 5-6 5" stroke="#3CCFD4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="21" y="27" width="11" height="3" rx="1.5" fill="#F7F4EC"/></symbol>
+<symbol id="i-contact" viewBox="0 0 48 48"><rect x="4" y="10" width="40" height="28" rx="5" fill="#F0641E"/><path d="m7 14 17 13 17-13" stroke="#FFF4EA" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-file" viewBox="0 0 48 48"><path d="M11 5h19l9 9v27a3 3 0 0 1-3 3H11a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z" fill="#F7F4EC"/><path d="M30 5v7a2 2 0 0 0 2 2h7Z" fill="#3CCFD4"/></symbol>
+<symbol id="i-power" viewBox="0 0 24 24"><path d="M12 3v8M7.1 6.5a7 7 0 1 0 9.8 0" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="i-min" viewBox="0 0 16 16"><path d="M3.5 11.5h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-max" viewBox="0 0 16 16"><rect x="3.5" y="3.5" width="9" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6" fill="none"/></symbol>
+<symbol id="i-close" viewBox="0 0 16 16"><path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1Z" fill="currentColor"/></symbol>
+<symbol id="i-sound-on" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="i-sound-off" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z" fill="currentColor"/><path d="m16 9.5 5 5M21 9.5l-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-net" viewBox="0 0 24 24"><rect x="3" y="14" width="4" height="6" rx="1" fill="currentColor"/><rect x="10" y="9" width="4" height="11" rx="1" fill="currentColor"/><rect x="17" y="4" width="4" height="16" rx="1" fill="currentColor"/></symbol>
+</svg>
+<div class="stage" id="stage">
+<canvas class="stage__canvas" aria-hidden="true"></canvas>
+<div class="stage__top">
+<p class="stage__brand"><strong>Anas Azouaoui</strong><span>Computer science portfolio, DACS track</span></p>
+<div class="stage__tools">
+<div class="lang"><span class="lang__current">EN</span> <a class="lang__other" href="/" hreflang="fr" lang="fr" title="Français">FR</a></div>
+<button class="tray__btn theme-btn" type="button" hidden data-to-day="Switch to day mode" data-to-night="Switch to night mode" aria-label="Switch to day mode" title="Switch to day mode"><svg class="theme-btn__sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="theme-btn__moon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+<button class="tray__btn sound-btn" type="button" hidden aria-pressed="false" data-on="Mute sound" data-off="Turn sound on" aria-label="Turn sound on" title="Turn sound on"><svg class="sound-btn__on" aria-hidden="true"><use href="#i-sound-on"/></svg><svg class="sound-btn__off" aria-hidden="true"><use href="#i-sound-off"/></svg></button>
+</div>
+</div>
+<div class="stage__bottom">
+<button class="enter" type="button"><svg aria-hidden="true"><use href="#i-power"/></svg>Enter the PC</button>
+<p class="stage__hint">Or click the screen. Drag to turn the room, click objects to see what they do.</p>
+<a class="stage__skip" href="#welcome">Skip the animation</a>
+</div>
+<p class="stage__loading" aria-live="polite"><span>Starting the desktop</span></p>
+<div class="stage__tip" aria-hidden="true"></div>
+<div class="stage__bubble" aria-hidden="true"></div>
+</div>
+<div class="os" id="os">
+<div class="os__wall" aria-hidden="true"></div>
+<main class="os__desk" id="main">
+<h1 class="wallname"><span class="wallname__line">Anas</span> <span class="wallname__line">Azouaoui</span> <small class="wallname__tag">Computer science portfolio, DACS track</small></h1>
+<ul class="icons" aria-label="Desktop">
+<li><a class="icon" href="#welcome" data-open="welcome"><svg class="icon__img" aria-hidden="true"><use href="#i-welcome"/></svg><span class="icon__label">Welcome</span></a></li>
+<li><a class="icon" href="#profil" data-open="profil"><svg class="icon__img" aria-hidden="true"><use href="#i-profil"/></svg><span class="icon__label">Profile</span></a></li>
+<li><a class="icon" href="#projets" data-open="projets"><svg class="icon__img" aria-hidden="true"><use href="#i-projets"/></svg><span class="icon__label">Projects</span></a></li>
+<li><a class="icon" href="#reseau" data-open="reseau"><svg class="icon__img" aria-hidden="true"><use href="#i-reseau"/></svg><span class="icon__label">Network</span></a></li>
+<li><a class="icon" href="#competences" data-open="competences"><svg class="icon__img" aria-hidden="true"><use href="#i-competences"/></svg><span class="icon__label">Skills</span></a></li>
+<li><a class="icon" href="#terminal" data-open="terminal"><svg class="icon__img" aria-hidden="true"><use href="#i-terminal"/></svg><span class="icon__label">Terminal</span></a></li>
+<li><a class="icon" href="#contact" data-open="contact"><svg class="icon__img" aria-hidden="true"><use href="#i-contact"/></svg><span class="icon__label">Contact</span></a></li>
+</ul>
+<div class="wins">
+<section class="win win--welcome" id="welcome" data-win aria-labelledby="welcome-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-welcome"/></svg>
+<h2 class="win__title" id="welcome-t">Welcome</h2>
+<span class="win__path">~/welcome.txt</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <p class="welcome__hi">Hi, I’m Anas.</p>
+<p class="welcome__lead">Second-year computer science student (BUT Informatique, DACS track) at IUT Montpellier-Sète. I am training in network administration and cybersecurity.</p>
+<p class="welcome__stage">I am looking for an 8-week internship starting 4 April 2027, in Montpellier.</p>
+<p class="welcome__actions">
+<a class="cta js-mail" data-u="43iuoauoza.sana" data-d="moc.liamg" data-subject="Internship from April 2027" href="#contact">Offer an internship</a>
+<a class="link" href="#projets" data-open="projets">See the projects</a>
+</p>
+<p class="welcome__hint">Open the desktop icons, move the windows around, or type help in the Terminal.</p>
+</div>
+</section>
+<section class="win win--profil" id="profil" data-win aria-labelledby="profil-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-profil"/></svg>
+<h2 class="win__title" id="profil-t">Profile</h2>
+<span class="win__path">~/profile.txt</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body"><p class="lead">I chose computer science to understand how the infrastructure behind everything digital actually works. My goal is clear: network administration and cybersecurity.</p><p class="lead">I want to understand systems, networks and their weaknesses so I can secure them, not just write code.</p>  <h3 class="h3">Why the DACS track</h3>
+<p>DACS stands for Deployment of Secure Communicating Applications. The track focuses on the three skills I need:</p>
+<dl class="defs">
+<div class="defs__row"><dt>C3 Administer</dt><dd>configure networks, maintain secure infrastructure, understand protocols.</dd></div>
+<div class="defs__row"><dt>C1 Build</dt><dd>understand how an application is built, to defend it better or test it in legitimate pentesting.</dd></div>
+<div class="defs__row"><dt>C6 Collaborate</dt><dd>security is teamwork, with strict procedures and careful communication.</dd></div>
+</dl>
+</div>
+</section>
+<section class="win win--projets" id="projets" data-win aria-labelledby="projets-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-projets"/></svg>
+<h2 class="win__title" id="projets-t">Projects</h2>
+<span class="win__path">~/projects</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <p class="muted">One file per project, sorted by VLAN like on my network.</p>
+<h3 class="zonebar"><span>VLAN 20, Year 2</span> <span class="zonebar__subnet ip">10.0.20.0/24</span> <span class="zonebar__note">In progress</span></h3>
+<ul class="files">
+<li><a class="file" href="#p-vote" data-open="p-vote">
+<span class="file__thumb media--vote" aria-hidden="true"></span>
+<span class="file__name">Encrypted electronic voting</span>
+<span class="file__ip ip">10.0.20.11</span>
+</a></li>
+<li><a class="file" href="#p-fourware" data-open="p-fourware">
+<span class="file__thumb media--fourware" aria-hidden="true"></span>
+<span class="file__name">Fourware, the connected oven</span>
+<span class="file__ip ip">10.0.20.12</span>
+</a></li>
+<li><a class="file" href="#p-cerelios" data-open="p-cerelios">
+<span class="file__thumb media--cerelios" aria-hidden="true"></span>
+<span class="file__name">Cerelios</span>
+<span class="file__ip ip">10.0.20.13</span>
+</a></li>
+</ul>
+<h3 class="zonebar"><span>VLAN 10, Year 1</span> <span class="zonebar__subnet ip">10.0.10.0/24</span> <span class="zonebar__note">Completed</span></h3>
+<ul class="files">
+<li><a class="file" href="#p-coworking" data-open="p-coworking">
+<span class="file__thumb media--coworking" aria-hidden="true"></span>
+<span class="file__name">The network of a coworking space</span>
+<span class="file__ip ip">10.0.10.11</span>
+</a></li>
+<li><a class="file" href="#p-cyberattaque" data-open="p-cyberattaque">
+<span class="file__thumb media--cyberattaque" aria-hidden="true"></span>
+<span class="file__name">Cyber-Attack, an orienteering game</span>
+<span class="file__ip ip">10.0.10.12</span>
+</a></li>
+<li><a class="file" href="#p-bdd" data-open="p-bdd">
+<span class="file__thumb media--bdd" aria-hidden="true"></span>
+<span class="file__name">A relational database</span>
+<span class="file__ip ip">10.0.10.13</span>
+</a></li>
+<li><a class="file" href="#p-dominion" data-open="p-dominion">
+<span class="file__thumb media--dominion" aria-hidden="true"></span>
+<span class="file__name">Dominion Seaside in Java</span>
+<span class="file__ip ip">10.0.10.14</span>
+</a></li>
+</ul>
+</div>
+</section>
+<section class="win win--reseau" id="reseau" data-win aria-labelledby="reseau-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-reseau"/></svg>
+<h2 class="win__title" id="reseau-t">Network</h2>
+<span class="win__path">~/network.map</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <figure class="map">
+<svg class="topo" viewBox="0 0 720 520" role="group" aria-label="Portfolio diagram: Anas Azouaoui is the gateway 10.0.0.1, connected to two networks, second year and first year, each containing his projects.">
+<g class="zone zone--but2">
+<rect class="zone__frame" x="176" y="40" width="532" height="190" />
+<text class="zone__name" x="196" y="66">VLAN 20, Year 2<tspan class="zone__note" dx="8">in progress</tspan></text>
+<text class="zone__subnet" x="694" y="66" text-anchor="end">10.0.20.0/24</text>
+</g>
+<g class="zone zone--but1">
+<rect class="zone__frame" x="176" y="262" width="532" height="246" />
+<text class="zone__name" x="196" y="288">VLAN 10, Year 1<tspan class="zone__note" dx="8">completed</tspan></text>
+<text class="zone__subnet" x="694" y="288" text-anchor="end">10.0.10.0/24</text>
+</g>
+<g class="cables" aria-hidden="true">
+<path class="cable cable--trunk" pathLength="1" d="M34,279 H140" />
+<path class="cable cable--uplink" pathLength="1" d="M140,279 V150 H196" />
+<path class="cable cable--uplink" pathLength="1" d="M140,279 V395 H196" />
+<path class="cable cable--branch b0" pathLength="1" d="M232,150 H262 V104 H292" />
+<path class="cable cable--branch b1" pathLength="1" d="M232,150 H262 V150 H292" />
+<path class="cable cable--branch b2" pathLength="1" d="M232,150 H262 V196 H292" />
+<path class="cable cable--branch b3" pathLength="1" d="M232,395 H262 V326 H292" />
+<path class="cable cable--branch b4" pathLength="1" d="M232,395 H262 V372 H292" />
+<path class="cable cable--branch b5" pathLength="1" d="M232,395 H262 V418 H292" />
+<path class="cable cable--branch b6" pathLength="1" d="M232,395 H262 V464 H292" />
+</g>
+<g class="switch" aria-hidden="true"><rect x="196" y="139.0" width="36" height="22" />
+<rect class="switch__port" x="203" y="147" width="4" height="6" />
+<rect class="switch__port" x="210" y="147" width="4" height="6" />
+<rect class="switch__port" x="217" y="147" width="4" height="6" />
+<rect class="switch__port" x="224" y="147" width="4" height="6" />
+</g>
+<g class="switch" aria-hidden="true"><rect x="196" y="384.0" width="36" height="22" />
+<rect class="switch__port" x="203" y="392" width="4" height="6" />
+<rect class="switch__port" x="210" y="392" width="4" height="6" />
+<rect class="switch__port" x="217" y="392" width="4" height="6" />
+<rect class="switch__port" x="224" y="392" width="4" height="6" />
+</g>
+<g class="routes" aria-hidden="true">
+<path class="route" data-route="vote" pathLength="1" d="M34,279 H140 V150 H196 M232,150 H262 V104 H292" />
+<path class="route" data-route="fourware" pathLength="1" d="M34,279 H140 V150 H196 M232,150 H262 V150 H292" />
+<path class="route" data-route="cerelios" pathLength="1" d="M34,279 H140 V150 H196 M232,150 H262 V196 H292" />
+<path class="route" data-route="coworking" pathLength="1" d="M34,279 H140 V395 H196 M232,395 H262 V326 H292" />
+<path class="route" data-route="cyberattaque" pathLength="1" d="M34,279 H140 V395 H196 M232,395 H262 V372 H292" />
+<path class="route" data-route="bdd" pathLength="1" d="M34,279 H140 V395 H196 M232,395 H262 V418 H292" />
+<path class="route" data-route="dominion" pathLength="1" d="M34,279 H140 V395 H196 M232,395 H262 V464 H292" />
+</g>
+<g class="gateway"><rect class="gateway__box" x="20" y="272" width="14" height="14" /><text class="gateway__ip" x="20" y="312">10.0.0.1</text><text class="gateway__name" x="20" y="330">gateway</text></g>
+<a class="node n0" href="#p-vote" data-node="vote" aria-label="Encrypted electronic voting, 10.0.20.11">
+<rect class="node__hit" x="286" y="84" width="416" height="40" />
+<circle class="node__glyph" cx="306" cy="104" r="6" />
+<text class="node__name" x="318" y="109">Encrypted electronic voting</text>
+<text class="node__ip" x="694" y="109" text-anchor="end">10.0.20.11</text>
+</a>
+<a class="node n1" href="#p-fourware" data-node="fourware" aria-label="Fourware, the connected oven, 10.0.20.12">
+<rect class="node__hit" x="286" y="130" width="416" height="40" />
+<circle class="node__glyph" cx="306" cy="150" r="6" />
+<text class="node__name" x="318" y="155">Fourware, the connected oven</text>
+<text class="node__ip" x="694" y="155" text-anchor="end">10.0.20.12</text>
+</a>
+<a class="node n2" href="#p-cerelios" data-node="cerelios" aria-label="Cerelios, 10.0.20.13">
+<rect class="node__hit" x="286" y="176" width="416" height="40" />
+<circle class="node__glyph" cx="306" cy="196" r="6" />
+<text class="node__name" x="318" y="201">Cerelios</text>
+<text class="node__ip" x="694" y="201" text-anchor="end">10.0.20.13</text>
+</a>
+<a class="node n3" href="#p-coworking" data-node="coworking" aria-label="The network of a coworking space, 10.0.10.11">
+<rect class="node__hit" x="286" y="306" width="416" height="40" />
+<rect class="node__glyph" x="300" y="320" width="12" height="12" />
+<text class="node__name" x="318" y="331">The network of a coworking space</text>
+<text class="node__ip" x="694" y="331" text-anchor="end">10.0.10.11</text>
+</a>
+<a class="node n4" href="#p-cyberattaque" data-node="cyberattaque" aria-label="Cyber-Attack, an orienteering game, 10.0.10.12">
+<rect class="node__hit" x="286" y="352" width="416" height="40" />
+<rect class="node__glyph" x="300" y="366" width="12" height="12" />
+<text class="node__name" x="318" y="377">Cyber-Attack, an orienteering game</text>
+<text class="node__ip" x="694" y="377" text-anchor="end">10.0.10.12</text>
+</a>
+<a class="node n5" href="#p-bdd" data-node="bdd" aria-label="A relational database, 10.0.10.13">
+<rect class="node__hit" x="286" y="398" width="416" height="40" />
+<rect class="node__glyph" x="300" y="412" width="12" height="12" />
+<text class="node__name" x="318" y="423">A relational database</text>
+<text class="node__ip" x="694" y="423" text-anchor="end">10.0.10.13</text>
+</a>
+<a class="node n6" href="#p-dominion" data-node="dominion" aria-label="Dominion Seaside in Java, 10.0.10.14">
+<rect class="node__hit" x="286" y="444" width="416" height="40" />
+<circle class="node__glyph" cx="306" cy="464" r="6" />
+<text class="node__name" x="318" y="469">Dominion Seaside in Java</text>
+<text class="node__ip" x="694" y="469" text-anchor="end">10.0.10.14</text>
+</a>
+</svg>
+<figcaption class="map__caption">Each project is a host on the network. Select one to open its page.</figcaption>
+</figure>
+</div>
+</section>
+<section class="win win--competences" id="competences" data-win aria-labelledby="competences-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-competences"/></svg>
+<h2 class="win__title" id="competences-t">Skills</h2>
+<span class="win__path">~/skills.csv</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <p class="lead">The six skills of the BUT Informatique degree, and the projects that prove them. The status is my self-assessment at the end of first year; level 2 is in progress.</p>
+<div class="table-scroll">
+<table class="matrix">
+<thead>
+<tr class="matrix__years">
+<td colspan="3"></td>
+<th scope="colgroup" colspan="3">Year 2</th>
+<th scope="colgroup" colspan="4">Year 1</th>
+</tr>
+<tr>
+<th scope="col" class="matrix__comp">Skill</th>
+<th scope="col">DACS</th>
+<th scope="col">Level 1</th>
+<th scope="col" class="matrix__proj"><a href="#p-vote" data-open="p-vote">Voting</a></th><th scope="col" class="matrix__proj"><a href="#p-fourware" data-open="p-fourware">Fourware</a></th><th scope="col" class="matrix__proj"><a href="#p-cerelios" data-open="p-cerelios">Cerelios</a></th><th scope="col" class="matrix__proj"><a href="#p-coworking" data-open="p-coworking">Coworking</a></th><th scope="col" class="matrix__proj"><a href="#p-cyberattaque" data-open="p-cyberattaque">Cyber-Attack</a></th><th scope="col" class="matrix__proj"><a href="#p-bdd" data-open="p-bdd">Database</a></th><th scope="col" class="matrix__proj"><a href="#p-dominion" data-open="p-dominion">Dominion</a></th>        </tr>
+</thead>
+<tbody>
+<tr class="is-major">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C1</span> Build software</th>
+<td>Major</td>
+<td><span class="state state--ok" aria-hidden="true"></span>Acquired</td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+</tr>
+<tr class="">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C2</span> Optimise applications</th>
+<td>Minor</td>
+<td><span class="state state--wip" aria-hidden="true"></span>In progress</td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+</tr>
+<tr class="is-major">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C3</span> Administer communicating systems</th>
+<td>Major</td>
+<td><span class="state state--ok" aria-hidden="true"></span>Acquired</td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+</tr>
+<tr class="">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C4</span> Manage data</th>
+<td>Minor</td>
+<td><span class="state state--ok" aria-hidden="true"></span>Acquired</td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+</tr>
+<tr class="">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C5</span> Run a project</th>
+<td>Minor</td>
+<td><span class="state state--wip" aria-hidden="true"></span>In progress</td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"></td>
+</tr>
+<tr class="is-major">
+<th scope="row" class="matrix__comp"><span class="matrix__code">C6</span> Collaborate in a team</th>
+<td>Major</td>
+<td><span class="state state--ok" aria-hidden="true"></span>Acquired</td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+<td class="matrix__cell"></td>
+<td class="matrix__cell"><span class="dot" aria-hidden="true"></span><span class="sr">evidence</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="note">Other evidence: Linux labs on Debian (permissions, file system, systemd services) for C3, the Python algorithms module (complexity, choosing data structures) for C2.</p>
+<h3 class="h3">Next steps</h3>
+<div class="table-scroll">
+<table class="table">
+<thead><tr><th scope="col">Goal</th><th scope="col">With</th></tr></thead>
+<tbody><tr><th scope="row">Configure network equipment</th><td>Cisco IOS, VLANs</td></tr><tr><th scope="row">Set up VPNs</th><td>OpenVPN, WireGuard</td></tr><tr><th scope="row">Filter traffic</th><td>iptables, pfSense</td></tr><tr><th scope="row">Monitor a network</th><td>Nagios, Zabbix</td></tr><tr><th scope="row">Automate administration</th><td>Python and Bash scripts</td></tr><tr><th scope="row">Manage project risk</th><td>RACI matrix, risk register</td></tr><tr><th scope="row">Certify my skills</th><td>CompTIA Network+</td></tr></tbody>
+</table>
+</div>
+</div>
+</section>
+<section class="win win--terminal" id="terminal" data-win aria-labelledby="terminal-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-terminal"/></svg>
+<h2 class="win__title" id="terminal-t">Terminal</h2>
+<span class="win__path">anas@portfolio: ~</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="term" data-term>
+<div class="term__out" aria-live="polite"><p>Anas OS 2.0. Type help to see the commands.</p></div>
+<form class="term__form" autocomplete="off">
+<label class="term__ps" for="term-in">anas@portfolio:~$</label>
+<input class="term__in" id="term-in" type="text" spellcheck="false" autocapitalize="off" autocomplete="off" enterkeyhint="send">
+</form>
+</div>
+</div>
+</section>
+<section class="win win--contact" id="contact" data-win aria-labelledby="contact-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-contact"/></svg>
+<h2 class="win__title" id="contact-t">Contact</h2>
+<span class="win__path">~/contact</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <p class="contact__text">I am looking for an 8-week internship starting 4 April 2027, in or near Montpellier, in networks, cybersecurity or software development.</p>
+<p><a class="cta js-mail" data-u="43iuoauoza.sana" data-d="moc.liamg" data-subject="Internship from April 2027" href="/mentions-legales">Offer an internship</a></p>
+<dl class="contact__lines">
+<div><dt>Email</dt><dd><a class="js-mail js-mail-text" data-u="43iuoauoza.sana" data-d="moc.liamg" href="/mentions-legales">see the legal notice</a></dd></div>
+<div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/anas-azouaoui-0895473aa/" rel="noopener">linkedin.com/in/anas-azouaoui-0895473aa</a></dd></div>
+</dl>
+</div>
+</section>
+<section class="win win--project" id="p-vote" data-win aria-labelledby="p-vote-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-vote-t">Encrypted electronic voting</h2>
+<span class="win__path">~/projects/vote</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--vote" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--app" aria-hidden="true"></span><strong>10.0.20.11</strong> VLAN 20, Year 2, in progress</p>
+<p class="pw__sum">A Java client-server application for running a referendum where the server counts the votes without ever being able to read a ballot.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>SAÉ S3.B.01 (university project)</dd></div>
+<div><dt>My role</dt><dd>Every part: server, encryption, client, tests</dd></div>
+<div><dt>Tools</dt><dd>Java, sockets, ElGamal</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>The server and the exchange protocol between clients and server.</li><li>ElGamal encryption: key generation, ballot encryption, tallying.</li><li>The voter’s client interface.</li><li>Testing, documentation and splitting the work within the group.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/vote" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-fourware" data-win aria-labelledby="p-fourware-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-fourware-t">Fourware, the connected oven</h2>
+<span class="win__path">~/projects/fourware</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--fourware" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--app" aria-hidden="true"></span><strong>10.0.20.12</strong> VLAN 20, Year 2, in progress</p>
+<p class="pw__sum">A connected oven that runs a recipe from start to finish, with no human intervention.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>Second-year group project</dd></div>
+<div><dt>My role</dt><dd>The application and its interface</dd></div>
+<div><dt>Tools</dt><dd>Connected device, application</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>The interface where the user picks and starts a recipe.</li><li>The link between what the user asks for and what the oven executes.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/fourware" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-cerelios" data-win aria-labelledby="p-cerelios-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-cerelios-t">Cerelios</h2>
+<span class="win__path">~/projects/cerelios</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--cerelios" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--app" aria-hidden="true"></span><strong>10.0.20.13</strong> VLAN 20, Year 2, in progress</p>
+<p class="pw__sum">Software built as a team in sprints: at the end of each one, we review what was delivered and plan the next.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>Second-year team project</dd></div>
+<div><dt>My role</dt><dd>Development and sprint reviews</dd></div>
+<div><dt>Tools</dt><dd>Agile method, sprints</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>Taking part in development during the sprints.</li><li>End-of-sprint reviews and planning the next sprint.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/cerelios" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-coworking" data-win aria-labelledby="p-coworking-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-coworking-t">The network of a coworking space</h2>
+<span class="win__path">~/projects/coworking</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--coworking" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--infra" aria-hidden="true"></span><strong>10.0.10.11</strong> VLAN 10, Year 1, completed</p>
+<p class="pw__sum">Design and justify the full infrastructure of a 20-seat coworking space: hardware, addressing plan, services and open source software choices.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>SAÉ 2.03</dd></div>
+<div><dt>My role</dt><dd>Architecture, addressing, choice of services</dd></div>
+<div><dt>Tools</dt><dd>Ubuntu, VMs, Apache, MariaDB, Postfix</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>A network split into two zones, clients and servers, joined by a core switch. Internet access through a TP-Link ER605 router handling DHCP, NAT and firewalling.</li><li>The 192.168.1.0/24 addressing plan: static addresses for servers and workstations, DHCP for visitors on Wi-Fi.</li><li>Four virtualised servers on Ubuntu: web, database, mail, backup.</li><li>Three options compared for each service: MariaDB 11 chosen over MySQL 8.0 and PostgreSQL 16, Apache 2.4 over Nginx and Caddy, Postfix and Dovecot over Zimbra.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/coworking" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-cyberattaque" data-win aria-labelledby="p-cyberattaque-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-cyberattaque-t">Cyber-Attack, an orienteering game</h2>
+<span class="win__path">~/projects/cyberattaque</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--cyberattaque" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--infra" aria-hidden="true"></span><strong>10.0.10.12</strong> VLAN 10, Year 1, completed</p>
+<p class="pw__sum">A night-time orienteering game on campus: a rogue AI, R-AI-D, has taken over, and teams must find ten terminals to shut it down.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>SAÉ 2.05, project management</dd></div>
+<div><dt>My role</dt><dd>Specifications, schedule, budget</dd></div>
+<div><dt>Tools</dt><dd>NFC, Raspberry Pi 4, PERT, Gantt</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>NFC badges act as team IDs and health counters, scanned by volunteers dressed as zombies.</li><li>Standalone reboot terminals on Raspberry Pi 4 with a touchscreen, where players type simplified Bash or Python commands.</li><li>An app, Cyber-Map, to follow the state of the terminals and the danger zones in real time.</li><li>The PERT and Gantt schedule: 13 tasks, a 117-day critical path, and a justified budget.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/cyberattaque" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-bdd" data-win aria-labelledby="p-bdd-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-bdd-t">A relational database</h2>
+<span class="win__path">~/projects/bdd</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--bdd" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--infra" aria-hidden="true"></span><strong>10.0.10.13</strong> VLAN 10, Year 1, completed</p>
+<p class="pw__sum">Design, create and populate a complete database from raw CSV files that were redundant and sometimes inconsistent.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>SAÉ 2.04</dd></div>
+<div><dt>My role</dt><dd>Analysis, modelling, creation, import</dd></div>
+<div><dt>Tools</dt><dd>Oracle, SQL, DBeaver</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>Analysing the CSVs: redundancy, functional dependencies, inconsistencies.</li><li>The entity-relationship model, then normalisation up to third normal form.</li><li>Oracle tables with their constraints: PRIMARY KEY, FOREIGN KEY, NOT NULL, CHECK.</li><li>Importing with DBeaver after cleaning the CSVs, checked by comparing row counts.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/bdd" data-page-link>Open the full page</a></p>
+</div>
+</section>
+<section class="win win--project" id="p-dominion" data-win aria-labelledby="p-dominion-t" tabindex="-1">
+<header class="win__bar">
+<svg class="win__ico" aria-hidden="true"><use href="#i-file"/></svg>
+<h2 class="win__title" id="p-dominion-t">Dominion Seaside in Java</h2>
+<span class="win__path">~/projects/dominion</span>
+<span class="win__btns">
+<button class="win__btn" type="button" data-act="min" aria-label="Minimise" title="Minimise"><svg aria-hidden="true"><use href="#i-min"/></svg></button>
+<button class="win__btn" type="button" data-act="max" aria-label="Maximise" title="Maximise"><svg aria-hidden="true"><use href="#i-max"/></svg></button>
+<button class="win__btn win__btn--close" type="button" data-act="close" aria-label="Close" title="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+</span>
+</header>
+<div class="win__body">  <div class="pw__media media--dominion" aria-hidden="true"></div>
+<p class="pw__ip ip"><span class="glyph glyph--app" aria-hidden="true"></span><strong>10.0.10.14</strong> VLAN 10, Year 1, completed</p>
+<p class="pw__sum">Programming the cards of the Seaside expansion of the Dominion card game in Java.</p>
+<dl class="pw__meta">
+<div><dt>Context</dt><dd>SAÉ 2.01 and 2.02</dd></div>
+<div><dt>My role</dt><dd>Cards, duration effects, robustness</dd></div>
+<div><dt>Tools</dt><dd>Java, OOP, MVC, Git</dd></div>
+</dl>
+<h3 class="h3">What I did</h3>
+<ul class="ticks"><li>An MVC architecture separating game logic, display and player actions.</li><li>An abstract Card class extended by each card family: action, treasure, victory, duration.</li><li>Duration effects, such as Fishing Village or Lighthouse, stored and resolved at the start of the next turn, following the Observer pattern.</li><li>Input validation and protection against impossible states: empty hand, exhausted deck, invalid sequence.</li></ul>
+<p class="pw__actions"><a class="cta cta--ghost" href="/en/projects/dominion" data-page-link>Open the full page</a></p>
+</div>
+</section>
+</div>
+</main>
+<nav class="taskbar" aria-label="Taskbar">
+<button class="taskbar__start" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="startmenu">
+<svg class="taskbar__logo" aria-hidden="true"><use href="#i-logo"/></svg><span>Anas OS</span>
+</button>
+<div class="startmenu" id="startmenu" hidden>
+<p class="startmenu__who"><strong>Anas Azouaoui</strong><span>Computer science portfolio, DACS track</span></p>
+<ul class="startmenu__list">
+<li><a href="/en/#welcome" data-open="welcome"><svg aria-hidden="true"><use href="#i-welcome"/></svg>Welcome</a></li>
+<li><a href="/en/#profil" data-open="profil"><svg aria-hidden="true"><use href="#i-profil"/></svg>Profile</a></li>
+<li><a href="/en/#projets" data-open="projets"><svg aria-hidden="true"><use href="#i-projets"/></svg>Projects</a></li>
+<li><a href="/en/#reseau" data-open="reseau"><svg aria-hidden="true"><use href="#i-reseau"/></svg>Network</a></li>
+<li><a href="/en/#competences" data-open="competences"><svg aria-hidden="true"><use href="#i-competences"/></svg>Skills</a></li>
+<li><a href="/en/#terminal" data-open="terminal"><svg aria-hidden="true"><use href="#i-terminal"/></svg>Terminal</a></li>
+<li><a href="/en/#contact" data-open="contact"><svg aria-hidden="true"><use href="#i-contact"/></svg>Contact</a></li>
+</ul>
+<p class="startmenu__label">Legal information</p>
+<ul class="startmenu__legal">
+<li><a href="/mentions-legales">Legal notice (FR)</a></li><li><a href="/confidentialite">Privacy (FR)</a></li><li><a href="/conditions-utilisation">Terms of use (FR)</a></li>      </ul>
+<button class="startmenu__leave" type="button" data-leave hidden><svg aria-hidden="true"><use href="#i-power"/></svg>Leave the PC</button>
+</div>
+<ul class="taskbar__tabs" aria-label="Open windows"></ul>
+<div class="tray">
+<div class="lang" aria-label="Language">
+<span class="lang__current" aria-current="true">EN</span>
+<a class="lang__other" href="/" hreflang="fr" lang="fr" title="Français">FR</a>
+</div>
+<button class="tray__btn theme-btn" type="button" hidden data-to-day="Switch to day mode" data-to-night="Switch to night mode" aria-label="Switch to day mode" title="Switch to day mode">
+<svg class="theme-btn__sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="theme-btn__moon" aria-hidden="true"><use href="#i-moon"/></svg>
+</button>
+<button class="tray__btn sound-btn" type="button" hidden aria-pressed="false" data-on="Mute sound" data-off="Turn sound on" aria-label="Turn sound on" title="Turn sound on">
+<svg class="sound-btn__on" aria-hidden="true"><use href="#i-sound-on"/></svg><svg class="sound-btn__off" aria-hidden="true"><use href="#i-sound-off"/></svg>
+</button>
+<span class="tray__net" title="Connected to 10.0.0.1"><svg aria-hidden="true"><use href="#i-net"/></svg><span class="sr">Connected to 10.0.0.1</span></span>
+<time class="tray__clock" aria-hidden="true">--:--</time>
+</div>
+</nav>
+</div>
+<div class="toast" id="notice" role="status" hidden>
+<svg class="toast__ico" aria-hidden="true"><use href="#i-logo"/></svg>
+<p>This site sets no cookies. Visits are measured anonymously.</p>
+<p class="toast__actions"><button type="button" class="toast__ok" id="notice-ok">Got it</button> <a href="/confidentialite">Details</a></p>
+</div>
+<footer class="nojs-foot">
+<p>© 2026 Anas Azouaoui. Fira Sans, SIL Open Font License. 3D videos and images rendered from code, no generative AI.</p>
+<ul><li><a href="/mentions-legales">Legal notice (FR)</a></li><li><a href="/confidentialite">Privacy (FR)</a></li><li><a href="/conditions-utilisation">Terms of use (FR)</a></li></ul>
+</footer>
+</body>
+</html>
